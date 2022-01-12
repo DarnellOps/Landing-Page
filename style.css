@@ -1,0 +1,82 @@
+body {
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.headContainer, .container, .footer {
+    background-color: #1f2937;
+    color: #efe7eb;
+    
+}
+.headContainer {
+    padding: 20px 0 50px 0;
+}
+
+.header {
+    margin-left: 70px;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.headLink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-right: 70px;
+
+}
+
+.headerLinks {
+    display: flex;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    
+}
+
+.titleText {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.box {
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signButton {
+    background-color: #3882f6 ;
+    padding: 10px 30px;
+    border-radius: 10%;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+
+
+
+
+
