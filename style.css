@@ -31,7 +31,6 @@ ul {
     list-style: none;
     display: flex;
     margin-right: 70px;
-
 }
 
 .headerLinks {
@@ -42,8 +41,7 @@ ul {
 .container {
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
-    
+    padding-bottom: 50px; 
 }
 
 .titleText {
@@ -171,7 +169,10 @@ span {
 }
 
 .footer {
-    padding: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
 }
 
 
