@@ -131,6 +131,48 @@ h2 {
     padding-top: 10px;
 }
 
+.actionContainer {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.action {
+    background-color: #3882f6;
+    color: #ffffff;
+    padding: 30px 100px 30px 100px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    row-gap: 30px;
+
+}
+
+.actionButton {
+    outline: 2px solid #ffffff;
+    background-color: #3882f6 ;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+}
+
+span {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.actionText {
+    font-size: 20px;
+}
+
+.footer {
+    padding: 50px;
+}
 
 
 
