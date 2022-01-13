@@ -103,9 +103,34 @@ h2 {
 
 .infoText {
     width: 150px;
-    text-align: center;
-    
+    text-align: center; 
+    margin-bottom: 60px;   
 }
+
+.quote {
+    background-color: #e5e7eb;
+    margin: 0;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+}
+
+.quoteText {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+    width: 670px;
+}
+
+.cite {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 400px;
+    padding-top: 10px;
+}
+
 
 
 
